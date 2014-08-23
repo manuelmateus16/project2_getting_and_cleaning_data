@@ -1,7 +1,9 @@
 Codebook for the Course Project of Getting and Cleaning Data - Coursera
 ===========
 
-This data set presents the mean and standard deviation values of a set of variables collected from the accelerometers of a Samsung Galaxy S smartphone for a group of 30 individuals (Subject variable). These individuals performed a set of activities (Activity variable), recording different values along the time and frequency domain. 
+The aim of this script is to transform a raw dataset collected from the accelerometers of a Samsung Galaxy S smartphone for a group of 30 individuals (Subject variable). These individuals performed a set of activities (Activity variable), recording different values along the time and frequency domain. 
+
+The tidy data set presents the mean and standard deviation values of each of the recorded variables, for each of the individual and activity.
 
 This analysis used the raw data of the test and train sets, merging them. After this, a grep search was made for the variables containing the "Mean" and "Std" regular expressions, in order to find the desired mean and std values.
 

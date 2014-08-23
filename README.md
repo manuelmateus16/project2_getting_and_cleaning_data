@@ -2,8 +2,20 @@
 
 The aim of this course is to make an analysis of a set of variables collected from the accelerometers of a Samsung Galaxy S smartphone for a group of 30 individuals (Subject variable).
 
-The data set which is used in this program can be downloaded in this link: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
+## DESCRIPTION OF THE FILES CONTAINED IN THIS REPOSITORY
 
-To run this analysis, the file run_analysis.R should be located in the folder extracted from the downloaded zipped dataset. By running run_analysis.R, a tidy_data.txt is generated with the mean and standard deviation values for the different individuals and activities.
+CodeBook.md: information about raw and tidy data set and elaboration made to transform them
+README.md: information about this repository (This file)
+run_analysis.R: R script to transform the raw data set into a tidy data file.
+
+## STEPS REQUIRED TO OBTAIN THE TIDY DATA SET
+
+1 - Clone this repository: `git clone git@github.com:manuelmateus16/project2_getting_and_cleaning_data.git`
+2 - Download the (compressed) raw data from [here](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
+3 - Unzip the downloaded raw data and copy the files and folders contained in the directory UCI HAR Dataset to the cloned repository root directory
+4 - Open a R console and set the working directory to the repository root (use setwd())
+5 - Run the script run_analysis.R script: source('run_analysis.R')
+
+A new file named tidy_data.txt will be created in the working directory cointaing the cleaned data.
 
 More information about the variables and the run_analysis.R script can be found in the CodeBook.md in this repository.
